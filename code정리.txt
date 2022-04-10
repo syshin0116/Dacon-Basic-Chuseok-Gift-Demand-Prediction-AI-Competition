@@ -28,7 +28,7 @@ model_list
 
 def print_cv(model, X_train, y_train, k):
     scores = cross_val_score(model, X_train, y_train, cv = k)
-    print(model_list[i], k, '----교차검증시작----')
+    print(I, k, '----교차검증시작----')
     print('결과:', scores)
     mean_scores = np.mean(scores)
     print('평균:', mean_scores)
