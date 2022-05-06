@@ -117,7 +117,7 @@
 									<i class="mdi mdi-account-multiple nino-icon"></i>
 									super team
 								</span>
-								<img src="resources/images/story/img-1.jpg" alt="">
+								<img src="https://himediasyshin.s3.ap-northeast-2.amazonaws.com/cat.JPG" alt="">
 							</a>
 						</div>
 					</div>
@@ -128,7 +128,7 @@
 									<i class="mdi mdi-image-filter-center-focus-weak nino-icon"></i>
 									Creativity
 								</span>
-								<img src="images/story/img-2.jpg" alt="">
+								<img src="https://himediasyshin.s3.ap-northeast-2.amazonaws.com/cat.JPG" alt="">
 							</a>
 						</div>
 					</div>
