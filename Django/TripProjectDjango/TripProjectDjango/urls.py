@@ -18,10 +18,13 @@ from django.urls import path
 
 import survey.views
 import surveyResult.views
+string = ''
+for i in range(17):
+    string += '/<answer'+str(i)+'>'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
-    path('trip/surveyResult/<session>/', surveyResult.views.all),
-
+    path('trip/surveyResult/newSurveyResult/<sessionId>'+string, surveyResult.views.newSurveyResult),
+    path('trip/surveyResult/test/<sessionId>'+string, surveyResult.views.test),
 ]
+

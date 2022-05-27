@@ -20,6 +20,6 @@ class Member(models.Model):
         unique_together = (('member_id', 'member_naver_token', 'member_google_token', 'member_name'),)
 
     def __str__(self):
-        return self.member_idx, ',', self.member_id, ',', self.member_pw, \
-               ',', self.member_name, ',', self.member_birth, ',', self.member_addr, \
-               ',', self.member_gender, ',', self.member_naver_token, ',', self.member_google_token
+        return self.member_idx, ',', self.member_id, ',', self.member_pw, + \
+               ',', self.member_name, ',', self.member_birth, ',', self.member_addr, + \
+               ',', self.member_gender, ',', self.member_naver_token, ',', self.member_google_token, ',', self.member_type
