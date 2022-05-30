@@ -1,5 +1,5 @@
 """
-WSGI config for TripDjango project.
+WSGI config for TripProjectDjango project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

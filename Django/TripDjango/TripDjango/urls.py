@@ -16,6 +16,14 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+import surveyResult.views
+
+# string = ''
+# for i in range(1, 18):
+#     string += '/<answer'+str(i)+'>'
+#
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('trip/surveyResult/newSurveyResult', surveyResult.views.newSurveyResult),
 ]

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02d90eff-67a1-4dc4-866f-7896c6a7ac99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/TripDjango.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/74b7a9c3-ade5-410a-bf4e-34c4ae0e3dbd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/place_trip.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/rarea.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/ratings_trip.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI/user_trip.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/surveyResult/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/surveyResult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TripDjango/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/TripDjango/asgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TripDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TripDjango/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TripDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TripDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TripDjango/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/TripDjango/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/surveyResult/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/surveyResult/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/surveyResult/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/surveyResult/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TripProjectDjango/TripProjectDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TripProjectDjango/TripProjectDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/similar유저기반_지역추천.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../추천시스템/similar유저기반_지역추천.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29jlU4ck4TcPKnc2PnLphfIrMrH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/syshin/Desktop/Himedia/Himedia_project/Django/TripDjango/AI"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/AI" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TripDjango" type="Python.DjangoServer" factoryName="Django server">
+      <module name="TripDjango" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02d90eff-67a1-4dc4-866f-7896c6a7ac99" name="Changes" comment="" />
+      <created>1653634387327</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653634387327</updated>
+      <workItem from="1653634396702" duration="19415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

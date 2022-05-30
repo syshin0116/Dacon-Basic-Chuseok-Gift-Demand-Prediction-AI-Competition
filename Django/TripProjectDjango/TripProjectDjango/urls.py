@@ -19,7 +19,7 @@ from django.urls import path
 import survey.views
 import surveyResult.views
 string = ''
-for i in range(17):
+for i in range(1, 18):
     string += '/<answer'+str(i)+'>'
 
 urlpatterns = [
