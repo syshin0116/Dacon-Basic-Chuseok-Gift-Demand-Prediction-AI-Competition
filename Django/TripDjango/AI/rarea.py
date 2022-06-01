@@ -14,8 +14,8 @@ import numpy as np
 
 def get_dataframe():
     rating = pd.read_csv('/Users/syshin/Desktop/Himedia/Himedia_project/Django/TripDjango/AI/ratings_trip.csv', index_col=0)
-    area = pd.read_csv('/Users/syshin/Desktop/Himedia/Himedia_project/Django/TripDjango/AI/ratings_trip.csv', index_col=0)
-    user = pd.read_csv('/Users/syshin/Desktop/Himedia/Himedia_project/Django/TripDjango/AI/ratings_trip.csv', index_col=0)
+    area = pd.read_csv('/Users/syshin/Desktop/Himedia/Himedia_project/Django/TripDjango/AI/place_trip.csv', index_col=0)
+    user = pd.read_csv('/Users/syshin/Desktop/Himedia/Himedia_project/Django/TripDjango/AI/user_trip.csv', index_col=0)
     return user, area, rating
 
 

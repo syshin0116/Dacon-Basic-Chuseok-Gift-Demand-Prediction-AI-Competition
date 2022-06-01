@@ -2,31 +2,252 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d90eff-67a1-4dc4-866f-7896c6a7ac99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TripDjango.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/74b7a9c3-ade5-410a-bf4e-34c4ae0e3dbd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/place_trip.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/rarea.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/ratings_trip.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI/user_trip.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/identifier.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/surveyResult/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/surveyResult.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TripDjango/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/TripDjango/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TripDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/TripDjango/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TripDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/TripDjango/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TripDjango/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/TripDjango/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surveyResult/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/surveyResult/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/connectDB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/materialdesignicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/materialdesignicons.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/prettyPhoto.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/template.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/css/unslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/materialdesignicons-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/materialdesignicons-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/materialdesignicons-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/bg-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/brand/img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/brand/img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/brand/img-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/brand/img-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/brand/img-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/brand/img-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/go-to-top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/happy-client/bg-happy-client.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/happy-client/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/happy-client/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/happy-client/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/happy-client/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/ico/apple-touch-icon-114-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/ico/apple-touch-icon-144-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/ico/apple-touch-icon-57-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/ico/apple-touch-icon-72-precomposed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/ico/favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/icon-plus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/instagram/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/instagram/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/instagram/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/instagram/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/instagram/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/instagram/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/instagram/img-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/instagram/img-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/instagram/img-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/map/bg-map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-blog/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-blog/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-blog/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-blog/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-blog/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-blog/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-team/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-team/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-team/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-work/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-work/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-work/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-work/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-work/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-work/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/our-work/img-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_rounded/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_rounded/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_rounded/contentPattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_rounded/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_rounded/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_rounded/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_square/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_square/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_square/contentPattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_square/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_square/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/dark_square/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/default/default_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/default/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/default/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/default/sprite_next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/default/sprite_prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/default/sprite_x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/default/sprite_y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/facebook/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/facebook/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/facebook/contentPatternBottom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/facebook/contentPatternLeft.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/facebook/contentPatternRight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/facebook/contentPatternTop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/facebook/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/facebook/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/facebook/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_rounded/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_rounded/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_rounded/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_rounded/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_rounded/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_square/btnNext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_square/btnPrevious.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_square/default_thumbnail.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_square/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/prettyPhoto/light_square/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/story/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/story/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/story/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/testimonial/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/testimonial/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/testimonial/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/unique-design/bg-unique-design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/unique-design/img-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/unique-design/img-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/images/what-we-do/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/btn_google_signin_light_focus_web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/loginWithGoogle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/loginWithNaver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/rgstWithGoogle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/rgstWithNaver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/구글-계정으로-로그인.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/구글-계정으로-회원가입.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/네이버-계정으로-로그인.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/img/네이버-계정으로-회원가입.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/jquery.hoverdir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/jquery.prettyPhoto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/modernizr.custom.97074.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/js/unslider-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/header2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/surveyResult/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI/rarea.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI/rarea.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/surveyResult/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/surveyResult/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TripProjectDjango/TripProjectDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TripProjectDjango/TripProjectDjango/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/surveyResult.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/surveyResult/surveyResult.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/2020_split버전220518.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/2021_여행지데이터.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/place.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/place_trip.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/place_trip_전처리.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/ratings_trip.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/ratings_trip_전처리.ipynb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../추천시스템/similar유저기반_지역추천.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../추천시스템/similar유저기반_지역추천.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/user_trip.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/user_trip_전처리.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/결혼여부.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/년 평균 가구소득.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/추천시스템 place.csv 전처리.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +285,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/syshin/Desktop/Himedia/Himedia_project/Django/TripDjango/AI"
+    "last_opened_file_path": "/Users/syshin/Desktop/Himedia/Himedia_project/Django/TripDjango/templates"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -74,10 +295,40 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/templates/surveyResult" />
+      <recent name="$PROJECT_DIR$/AI" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+      <recent name="$PROJECT_DIR$/templates/surveyResult" />
       <recent name="$PROJECT_DIR$/AI" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.TripDjango">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TripDjango" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AI" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TripDjango" type="Python.DjangoServer" factoryName="Django server">
       <module name="TripDjango" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,6 +352,11 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -110,7 +366,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653634387327</updated>
-      <workItem from="1653634396702" duration="19415000" />
+      <workItem from="1653634396702" duration="58367000" />
     </task>
     <servers />
   </component>
@@ -130,5 +386,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TripDjango$test.coverage" NAME="test Coverage Results" MODIFIED="1653876625379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AI" />
   </component>
 </project>
