@@ -21,10 +21,11 @@ document.cookie = 'cookie1=value1; SameSite=Lax';
 // Set a cross-site cookie for third-party contexts
 document.cookie = 'cookie2=value2; SameSite=None; Secure';
           function DeleteResult(idx) {
+              alert(idx)
               if (confirm("정말로 삭제하시겠습니까?")) {
                   //controller의 mvDel요청 후, 삭제가 성공하면, mv.jsp로 화면을 넘김
                   $.ajax({
-                      url: "surveyResultDelete/"+String(idx),
+                      url: "/trip/surveyResult/surveyResultDelete/"+String(idx),
 
                       success: function (result) {
                           if (result == '1') {
@@ -37,9 +38,21 @@ document.cookie = 'cookie2=value2; SameSite=None; Secure';
           }
 </script>
   </head>
-  <body>
-
-    <!-- Example Code -->
+  <body data-target="#nino-navbar" data-spy="scroll">
+    	<!-- Header
+    ================================================== -->
+	<header id="nino-header">
+		<div id="nino-headerInner">
+            {% if  sessionID == None %}
+			<jsp:include page="../header.jsp"></jsp:include>
+            {%  else  %}
+			<jsp:include page="../header2.jsp"></jsp:include>
+            {% endif %}
+			<section id="nino-slider" class="carousel slide container"
+				data-ride="carousel"></section>
+		</div>
+	</header>
+    <!-- body -->
     <button type="button" onclick="location.href='http://localhost:8080/trip/survey/survey.jsp'">새 설문지 작성하기</button>
     <button type="button" onclick="location.href='/trip/surveyResult/statistics'">통계 보기</button>
     <br>
