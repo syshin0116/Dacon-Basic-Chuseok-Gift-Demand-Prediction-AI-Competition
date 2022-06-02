@@ -25,5 +25,8 @@ import surveyResult.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('trip/surveyResult/SurveyResult/<sessionID>', surveyResult.views.SurveyResult),
     path('trip/surveyResult/newSurveyResult', surveyResult.views.newSurveyResult),
+    path('trip/surveyResult/statistics', surveyResult.views.statistics),
+    path('trip/surveyResult/surveyResultDelete/<idx>', surveyResult.views.delete),
 ]

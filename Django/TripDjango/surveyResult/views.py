@@ -7,12 +7,13 @@ from AI.rarea import get_dataframe, cal_RMSE, get_recommendations, add_user
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 ## http://127.0.0.1:8000/trip/surveyResult/newSurveyResult?answer1=20&answer2=%EB%82%A8%EC%9E%90&answer3=1&answer4=%EC%84%9C%EC%9A%B8%ED%8A%B9%EB%B3%84%EC%8B%9C&answer6=1&answer7=4&answer8=1&answer9=1&answer10=1&answer11=1&answer12=1&answer13=%EB%AF%B8%ED%98%BC&answer14=%EB%8C%80%ED%95%99%EC%83%9D&answer16=10000&answer17=%EC%A4%91%EC%86%8C%EB%8F%84%EC%8B%9C
-from DB.connectDB import getSurvey, getSurveyResult, insertSurveyResult
+from DB.connectDB import getSurvey, getSurveyResult, insertSurveyResult, deleteSurveyResult
 
 
 @method_decorator(csrf_exempt, name='dispatch')
 @csrf_exempt
 def newSurveyResult(req):
+
     ## POST로 보낸 form 데이터 받음
     data = req.POST
     print(data)
@@ -64,6 +65,9 @@ def newSurveyResult(req):
     new_list = [1000001, '남자', 20, '서울특별시', '중소도시', '대학생', 4, '미혼', 10000]
     userID = 1000001
     sessionID = data['sessionID']
+    ## sessionID를 POST로 받아 django session에 저장
+    req.session['sessionID'] = sessionID
+
     print("answer_list>>>>>", answer_list)
     print("answer_db>>>>>>>>", answer_db)
 
@@ -72,12 +76,19 @@ def newSurveyResult(req):
     user = add_user(user, new)
     algo, trainset, testset = cal_RMSE(rating)
     rarea = get_recommendations(userID, algo, user, rating, 50)
+
+    ## DB에 넣기 위해 ,로 구분한 string으로 변환
+    rarea_db = ""
+    for area in rarea:
+        rarea_db+=area + ","
+    rarea_db = rarea_db.rstrip(",")
+
     print("recommendation:", rarea)
     ractivity = "자연 관광"
     surveyList = getSurvey()
     surveyResultList = getSurveyResult(sessionID)
-    vo = (sessionID, ractivity, answer_db, rarea)
-    insertSurveyResult(sessionID, ractivity, answer_db, rarea)
+    vo = (sessionID, ractivity, answer_db, rarea_db)
+    insertSurveyResult(sessionID, ractivity, answer_db, rarea_db)
 
     answers = []
     for one in surveyResultList:
@@ -87,13 +98,56 @@ def newSurveyResult(req):
     for one in surveyList:
         choices.append(str(one[2]).split(","))
 
-    choice_answers = zip(choices, answers)
-    surveyList = zip(surveyList, choice_answers)
+    choices_answers = zip(choices, answers[0])
+    surveyList = zip(surveyList, answers[0], choices)
+    print("========answers", answers[0])
+    print("========choices", choices)
+
     result = {
         'sessionID': sessionID,
         'surveyResultList': surveyResultList,
         'surveyList': surveyList,
         "rarea": rarea,
         "ractivity": ractivity
+    }
+    return render(req, 'surveyResult/surveyResult.html', result)
+
+def statistics(req):
+    sessionID = req.session['sessionID']
+    data = {
+        'sessionID' : sessionID
+    }
+    return render(req, 'surveyResult/statistics.html', data)
+
+def delete(req, idx):
+    result = deleteSurveyResult(idx)
+    data = {
+        'result':result
+    }
+    return render(req, 'surveyResult/surveyResult.html', data)
+
+def SurveyResult(req, sessionID):
+    ractivity = "자연 관광"
+    surveyList = getSurvey()
+    surveyResultList = getSurveyResult(sessionID)
+
+
+    answers = []
+    for one in surveyResultList:
+        answers.append(str(one[4]).split(','))
+
+    choices = []
+    for one in surveyList:
+        choices.append(str(one[2]).split(","))
+
+    choices_answers = zip(choices, answers[0])
+    surveyList = zip(surveyList, answers[0], choices)
+    print("========answers", answers[0])
+    print("========choices", choices)
+
+    result = {
+        'sessionID': sessionID,
+        'surveyResultList': surveyResultList,
+        'surveyList': surveyList,
     }
     return render(req, 'surveyResult/surveyResult.html', result)
