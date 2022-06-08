@@ -35,7 +35,7 @@ hr {
 a {
 	text-decoration: none;
 	outline: none;
-	color: #2ec06c;
+	color: white;
 	-webkit-transition: all .3s ease-in-out;
 	   -moz-transition: all .3s ease-in-out;
 		 -o-transition: all .3s ease-in-out;
@@ -273,7 +273,7 @@ img.img-full-width {
 #nino-slider .carousel-indicators li,
 #nino-slider .carousel-indicators li.active {
 	float: left;
-	width: 25%;
+	width: 20%;
 	height: auto;
 	margin: 0;	
 	text-indent: initial;

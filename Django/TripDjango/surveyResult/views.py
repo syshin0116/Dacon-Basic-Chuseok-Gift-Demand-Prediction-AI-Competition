@@ -39,19 +39,19 @@ def newSurveyResult(req):
     'month' : data['answer3'],
     'living_area' : data['answer4'],
     'sleepnights' : data['answer5'],
-    'accommodation' : data['answer6'],
-    'accommodation': data['answer7'],
-    'accommodation': data['answer8'],
+    'accommodation1' : data['answer6'],
+    'accommodation2': data['answer7'],
+    'accommodation3': data['answer8'],
     'number_of_ppl' : data['answer9'],
     'number_of_children' : data['answer10'],
     'relationship' : data['answer11'],
-    'reason' : data['answer12'],
-    'reason' : data['answer13'],
-    'reason' : data['answer14'],
+    'reason1' : data['answer12'],
+    'reason2' : data['answer13'],
+    'reason3' : data['answer14'],
     'cost_total_trip' : data['answer15'],
     'transportation1' : data['answer16'],
-    'transportation1' : data['answer17'],
-    'transportation1' : data['answer18'],
+    'transportation2' : data['answer17'],
+    'transportation3' : data['answer18'],
     'marry': data['answer19'],
     'occupation' : data['answer20'],
     'income_per_year' : data['answer21'],
@@ -103,34 +103,56 @@ def newSurveyResult(req):
     print("========answers", answers[0])
     print("========choices", choices)
 
+    if sessionID == None or sessionID =="":
+        header = "header.jsp"
+    else:
+        header = "header2.jsp"
+
+    url = "http://localhost:8080/"
+
     result = {
         'sessionID': sessionID,
         'surveyResultList': surveyResultList,
         'surveyList': surveyList,
         "rarea": rarea,
-        "ractivity": ractivity
+        "ractivity": ractivity,
+        'header': header,
+        'url' : url,
     }
     return render(req, 'surveyResult/surveyResult.html', result)
 
 def statistics(req):
     sessionID = req.session['sessionID']
+    if sessionID == None or sessionID =="":
+        header = "header.jsp"
+    else:
+        header = "header2.jsp"
+
+    url = "http://localhost:8080/"
     data = {
-        'sessionID' : sessionID
+        'sessionID' : sessionID,
+        'header': header,
+        'url' : url,
     }
     return render(req, 'surveyResult/statistics.html', data)
 
 def delete(req, idx):
+    sessionID = req.session['sessionID']
     result = deleteSurveyResult(idx)
     data = {
-        'result':result
+        'result': result
     }
-    return render(req, 'surveyResult/surveyResult.html', data)
+    return data
 
 def SurveyResult(req, sessionID):
     ractivity = "자연 관광"
     surveyList = getSurvey()
     surveyResultList = getSurveyResult(sessionID)
 
+    print("surveyList>>", surveyList)
+    print()
+    print("surveyResultList>>", surveyResultList)
+    print()
 
     answers = []
     for one in surveyResultList:
@@ -145,9 +167,19 @@ def SurveyResult(req, sessionID):
     print("========answers", answers[0])
     print("========choices", choices)
 
+    if sessionID == None or sessionID =="":
+        header = "header.jsp"
+    else:
+        header = "header2.jsp"
+
+    ##배포시 바뀔 url
+    url = "http://localhost:8080/"
     result = {
         'sessionID': sessionID,
         'surveyResultList': surveyResultList,
         'surveyList': surveyList,
+        'header': header,
+        'url' : url,
     }
+    print("======================================")
     return render(req, 'surveyResult/surveyResult.html', result)
