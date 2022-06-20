@@ -99,7 +99,7 @@ def newSurveyResult(req):
         choices.append(str(one[2]).split(","))
 
     choices_answers = zip(choices, answers[0])
-    surveyList = zip(surveyList, answers[0], choices)
+    surveyList = zip(surveyList, answers[0])
     print("========answers", answers[0])
     print("========choices", choices)
 
@@ -148,11 +148,12 @@ def SurveyResult(req, sessionID):
     ractivity = "자연 관광"
     surveyList = getSurvey()
     surveyResultList = getSurveyResult(sessionID)
+    print("sureyResultList length::::::", len(surveyResultList))
 
-    print("surveyList>>", surveyList)
-    print()
-    print("surveyResultList>>", surveyResultList)
-    print()
+    # print("surveyList>>", surveyList)
+    # print()
+    # print("surveyResultList>>", surveyResultList)
+    # print()
 
     answers = []
     for one in surveyResultList:
@@ -161,8 +162,7 @@ def SurveyResult(req, sessionID):
     choices = []
     for one in surveyList:
         choices.append(str(one[2]).split(","))
-
-    choices_answers = zip(choices, answers[0])
+    choices_answers = zip(choices, answers)
     surveyList = zip(surveyList, answers[0], choices)
     print("========answers", answers[0])
     print("========choices", choices)
