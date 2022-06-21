@@ -2,72 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d90eff-67a1-4dc4-866f-7896c6a7ac99" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/AI/ractivity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-31 001.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-31 001.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-32 002.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-32 002.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-33 004.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-33 004.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-34 005.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-34 005.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-34 006.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-34 006.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-35 007.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-35 007.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-35 008.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-35 008.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-36 009.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-36 009.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-37 010.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-37 010.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-38 011.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-38 011.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-38 012.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-38 012.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-39 013.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-39 013.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-39 014.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-39 014.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-40 015.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-40 015.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-40 016.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-40 016.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-40 017.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-40 017.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-41 018.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-41 018.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-41 019.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-41 019.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-42 020.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-42 020.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-43 021.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-43 021.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-43 022.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/../../dongsu_images/KakaoTalk_Photo_2022-06-16-17-02-43 022.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/architecture/KakaoTalk_Photo_2022-06-16-17-02-40 017.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-31 001.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-32 002.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-32 003.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-33 004.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-34 005.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-34 006.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-35 007.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-35 008.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-36 009.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-37 010.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-38 011.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-38 012.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-40 015.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-40 016.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-40 017.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-41 018.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-41 019.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-42 020.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-43 021.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/art and culture/KakaoTalk_Photo_2022-06-16-17-02-43 022.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-31 001.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-32 002.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-32 003.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-33 004.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-34 005.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-34 006.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-35 007.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-36 009.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-37 010.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-38 011.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-38 012.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-39 013.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-39 014.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-40 016.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-41 018.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/food and drinks/KakaoTalk_Photo_2022-06-16-17-02-42 020.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/travel and adventure/KakaoTalk_Photo_2022-06-16-17-02-35 008.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/travel and adventure/KakaoTalk_Photo_2022-06-16-17-02-41 019.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/travel and adventure/KakaoTalk_Photo_2022-06-16-17-02-43 021.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../dongsu_images/classified/travel and adventure/KakaoTalk_Photo_2022-06-16-17-02-43 022.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../image_classification/tkinter_image_classification.ipynb" beforePathEscaped="$PROJECT_DIR$/../../image_classification/#8#tkinter_image_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../image_classification/tkinter_image_classification.ipynb" afterPathEscaped="$PROJECT_DIR$/../../image_classification/#8#tkinter_image_classification.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../image_classification/travel_4classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../image_classification/travel_4classification.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../weather_cat/Untitled1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../weather_cat/Untitled1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../문화체육관광부/2020 국내여행/2020국내여행_전처리_정리.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../문화체육관광부/2020 국내여행/2020국내여행_전처리_정리.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../문화체육관광부/병합 국내여행.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../문화체육관광부/병합 국내여행.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../발표 관련/SequenceDiagram_승엽.drawio copy" beforeDir="false" afterPath="$PROJECT_DIR$/../../발표 관련/SequenceDiagram_승엽.drawio copy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../발표 관련/순서도_승엽.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../../발표 관련/순서도_승엽.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../발표 관련/요구사항정의서&amp;db테이블.pages" beforeDir="false" afterPath="$PROJECT_DIR$/../../발표 관련/요구사항정의서&amp;db테이블.pages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../발표 관련/통합/순서도.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../../발표 관련/통합/순서도.drawio" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../추천시스템/활동추천/2018~2020 ML - second test.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -109,7 +52,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/syshin/Desktop/Himedia/Himedia_project/Django/TripDjango",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -223,6 +166,7 @@
       <workItem from="1654830496226" duration="1000" />
       <workItem from="1654832373041" duration="1915000" />
       <workItem from="1654913871725" duration="9727000" />
+      <workItem from="1655765448949" duration="3259000" />
     </task>
     <servers />
   </component>
