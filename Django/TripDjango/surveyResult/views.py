@@ -70,6 +70,8 @@ def newSurveyResult(req):
 
     print("answer_list>>>>>", answer_list)
     print("answer_db>>>>>>>>", answer_db)
+    ractivity = "자연 관광"
+
 
     ## Machine Learning 돌려서 값 받음
     user, area, rating = get_dataframe()
@@ -84,7 +86,7 @@ def newSurveyResult(req):
     rarea_db = rarea_db.rstrip(",")
 
     print("recommendation:", rarea)
-    ractivity = "자연 관광"
+
     surveyList = getSurvey()
     surveyResultList = getSurveyResult(sessionID)
     vo = (sessionID, ractivity, answer_db, rarea_db)
@@ -145,16 +147,10 @@ def delete(req, idx):
     return data
 
 def SurveyResult(req, sessionID):
-    ractivity = "자연 관광"
+
     surveyList = getSurvey()
     surveyResultList = getSurveyResult(sessionID)
     print("sureyResultList length::::::", len(surveyResultList))
-
-    # print("surveyList>>", surveyList)
-    # print()
-    # print("surveyResultList>>", surveyResultList)
-    # print()
-
     answers = []
     for one in surveyResultList:
         answers.append(str(one[4]).split(','))

@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02d90eff-67a1-4dc4-866f-7896c6a7ac99" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AI/ractivity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../문화체육관광부/2020 국내여행/2020국내여행_전처리_정리.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../문화체육관광부/2020 국내여행/2020국내여행_전처리_정리.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/connectDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/DB/connectDB.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/surveyResult/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/surveyResult/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../문화체육관광부/병합 국내여행.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../문화체육관광부/병합 국내여행.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../발표 관련/SequenceDiagram_승엽.drawio copy" beforeDir="false" afterPath="$PROJECT_DIR$/../../발표 관련/SequenceDiagram_승엽.drawio copy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../발표 관련/순서도_승엽.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../../발표 관련/순서도_승엽.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../발표 관련/요구사항정의서&amp;db테이블.pages" beforeDir="false" afterPath="$PROJECT_DIR$/../../발표 관련/요구사항정의서&amp;db테이블.pages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../발표 관련/통합/순서도.drawio" beforeDir="false" afterPath="$PROJECT_DIR$/../../발표 관련/통합/순서도.drawio" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../추천시스템/활동추천/2018~2020 ML - second test.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +161,7 @@
       <workItem from="1654830496226" duration="1000" />
       <workItem from="1654832373041" duration="1915000" />
       <workItem from="1654913871725" duration="9727000" />
-      <workItem from="1655765448949" duration="3259000" />
+      <workItem from="1655765448949" duration="11506000" />
     </task>
     <servers />
   </component>

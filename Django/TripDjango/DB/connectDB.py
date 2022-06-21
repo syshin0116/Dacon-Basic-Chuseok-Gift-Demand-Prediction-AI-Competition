@@ -86,7 +86,8 @@ def insertSurveyResult(sessionID, ractivity, answer_db, rarea_db):
         cur = conn.cursor()
 
         # 3. sql문을 보내보자
-        sql = 'INSERT INTO surveyResult (member_idx, surveyResult_recommendation, surveyResult_answers, surveyResult_rarea) VALUES (%s, %s, %s, %s)'
+        sql = 'INSERT INTO surveyResult (member_idx, surveyResult_recommendation, ' \
+              'surveyResult_answers, surveyResult_rarea) VALUES (%s, %s, %s, %s)'
         # 커서로 sql문을 보냄.
         result = cur.execute(sql, (sessionID, ractivity, answer_db, rarea_db))
         print('sql문 전송 결과>', result)
