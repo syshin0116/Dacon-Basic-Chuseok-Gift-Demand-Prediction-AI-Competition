@@ -3,9 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="02d90eff-67a1-4dc4-866f-7896c6a7ac99" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/connectDB.py" beforeDir="false" afterPath="$PROJECT_DIR$/DB/connectDB.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/surveyResult/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/surveyResult/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../문화체육관광부/병합 국내여행.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../문화체육관광부/병합 국내여행.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/.ipynb_checkpoints/selenium_install_test-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/.ipynb_checkpoints/testyoutube-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/IMG_1002.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/imgsample.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/selenium_install_test.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tests/testyoutube.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +165,10 @@
       <workItem from="1654832373041" duration="1915000" />
       <workItem from="1654913871725" duration="9727000" />
       <workItem from="1655765448949" duration="12111000" />
+      <workItem from="1655882546129" duration="644000" />
+      <workItem from="1657382084388" duration="166000" />
+      <workItem from="1658418855464" duration="5000" />
+      <workItem from="1658418867871" duration="3000" />
     </task>
     <servers />
   </component>
