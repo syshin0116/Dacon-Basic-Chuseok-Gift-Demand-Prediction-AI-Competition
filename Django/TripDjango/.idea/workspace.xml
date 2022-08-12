@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02d90eff-67a1-4dc4-866f-7896c6a7ac99" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tests/.ipynb_checkpoints/selenium_install_test-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tests/.ipynb_checkpoints/testyoutube-checkpoint.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tests/IMG_1002.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tests/imgsample.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tests/selenium_install_test.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../tests/testyoutube.ipynb" beforeDir="false" />
-    </list>
+    <list default="true" id="02d90eff-67a1-4dc4-866f-7896c6a7ac99" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,6 +161,7 @@
       <workItem from="1657382084388" duration="166000" />
       <workItem from="1658418855464" duration="5000" />
       <workItem from="1658418867871" duration="3000" />
+      <workItem from="1660264875348" duration="2000" />
     </task>
     <servers />
   </component>
